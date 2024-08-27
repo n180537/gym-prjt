@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./prjt.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./membership.html">Membership</a></li>
+                <li><a href="./contact_login.html">Contact / Login</a></li>
+                <li></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="contact_bg">
+            <section class="contact">
+                <form action="#">
+                    <fieldset>
+    
+                        <!-- <legend>Contact </legend>   -->
+                        
+                        <div class="form_group">
+                            <legend>Contact</legend><br>
+                            <label for="nm">Name :</label>
+                        <input type="text" id="nm" required placeholder="Your Name"><br><br>
+                        </div>
+    
+                        <div class="form_group">
+                            <label for="nr">Number :</label>
+                        <input type="text" id="nr" required placeholder="Phone"><br><br>
+                        </div>
+    
+                        <div class="form_group">
+                            <label for="em">Email   :</label>
+                        <input type="email" id="em" placeholder="Email" required>
+                        </div>
+    
+                        <div class="form_group">
+                            <label for="msg">Message :</label>
+                            <textarea name="msg" id="msg" rows="3" required ></textarea>
+                        </div>
+    
+                        <button type="submit" onclick="fun()"> Send </button>
+                        
+                        
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+
+    </main>
+
+    
+
+    <!--footer-->
+    <footer>
+
+        <p>&copy venu all rights reserved</p>
+
+    </footer>
+
+
+    <script>
+        function fun(){
+            alert('please fill the details before submit')
+        }
+    </script>
+
+</body>
+</html>
+

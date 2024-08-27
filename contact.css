@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    position: sticky;top: 0;
+     color: white;
+    background-image: url(./accets/H_bg2.webp);
+    padding: 15px;
+    /* backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18 ); */
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+nav ul{
+    list-style-type: none;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    
+   
+}
+
+nav li{
+    margin: 5px 10px;
+    
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    border-radius: 2rem;
+    border-spacing: 1rem;
+    padding: 10px;
+  
+}
+
+
+nav a:hover{
+    color: red;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18 );
+}
+
+.contact_bg{
+    background-image: url(./accets/C_bg.webp);
+    background-size:cover;
+    height:90vh;
+    
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+
+.contact{
+    justify-content: center;
+    padding: 30px;
+    
+    
+
+}
+
+form{
+    /* max-width: 500px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+fieldset{
+
+    color: white;
+    border-radius: 10%;
+    border-style: none;
+    /* backdrop-filter: blur(30px); */
+    background-color: #030303;
+    box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18 );
+    width: 300px;
+    
+}
+
+form legend{
+    
+    text-align: center;
+    /* margin-left: 15%; */
+    color: rgb(255, 1, 1);
+    font-size: 20px;
+}
+
+.form_group{
+    padding: 15px;
+    
+}
+
+label{
+    display: block;
+}
+
+button{
+    background-color: #F71409;
+    color: white;
+    border-radius: 16px;
+    margin-left: 40%;
+    border-style: none;
+    cursor: pointer;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18 );
+}
+
+button:active{
+    background-color: green;
+}
+    
+
+
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #17202A;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background-image: url(./accets/H_bg2.webp);
+}
